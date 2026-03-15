@@ -57,12 +57,13 @@ Principais entidades:
 - `dim_product`  
 - `dim_time`
 
-Diagrama conceitual:
+## Modelo Estrela (Star Schema)
 
-dim_customer
-│
-│
-dim_product ─── fact_sales ─── dim_time
+       dim_customer
+            |
+            |
+
+dim_product --- fact_sales --- dim_time
 
 
 ---
